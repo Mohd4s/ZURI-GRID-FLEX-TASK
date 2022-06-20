@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.box-container {
+  display: flex;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-container div {
+  padding: 25px;
+  width: 40%;
+}
+
+.box-container img {
+  padding: 10px 0px;
+}
+.box-container h1 {
+  padding: 25px 0px;
+}
+.box-container p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  width: 68px;
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 30px;
+  font-weight: 400;
+  font-family: "Big Shoulders Display", cursive;
+  border: none;
+  align-self: center;
+}
+
+.first {
+  background-color: hsl(31, 77%, 52%);
+}
+.first button {
+  color: hsl(31, 77%, 52%);
+}
+.first button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.second {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.second button {
+  color: hsl(184, 100%, 22%);
+}
+.second button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.third {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.third button {
+  color: hsl(179, 100%, 13%);
+}
+.third button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
